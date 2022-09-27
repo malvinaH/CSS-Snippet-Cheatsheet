@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>mini-project-2</title>
+    <title>CSS Snippet Cheatsheet</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./asset/style.css" />
   </head>
+
   <body>
     <!-- Header -->
     <header>
@@ -14,80 +15,96 @@
     </header>
 
     <!-- Body -->
-    <main>
-      <section>
-        <h2>Flexbox Row</h2>
-        <p>Use these three properties to create a Flexbox row layout.</p>
-        <pre>
-        .row {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-        }
-        </pre>
+    <main class="snippet__card-container">
+        <section class="snippet__card">
+        <h2 class="snippet__card-header">Flexbox Row</h2>
+        <div class="snippet__card-body">
+          <p>Use these three properties to create a Flexbox row layout.</p>
+          <pre class="snippet__code"><code>
+          .row {
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+          }
+            </code>
+           </pre>
+         </div>
       </section>
 
-      <section>
-        <h2>Flexbox Column</h2>
-        <p>Use these this to create a Flexbox column layout.</p>
-        <pre>
-        .column {
-            display: flex;
-            flex-direction: column;
-        }
-        </pre>
+      <section class="snippet__card">
+        <h2 class="snippet__card-header">Flexbox Column</h2>
+        <div class="snippet__card-body">
+          <p>Use these this to create a Flexbox column layout.</p>
+          <pre class="snippet__code"><code>
+          .column {
+              display: flex;
+              flex-direction: column;
+          }
+           </code>
+          </pre>
+        </div>
       </section>
 
-      <section>
-        <h2>CSS Grid Layout</h2>
-        <p>Build a 12-column layout using CSS Grid.</p>
-        <pre>
-        .grid {
-            display: grid;
-            width: 100%;
-            grid-template-columns: repeat(12, 1fr):
-        }
-        </pre>
+      <section class="snippet__card">
+        <h2 class="snippet__card-header">CSS Grid Layout</h2>
+        <div class="snippet__card-body">
+          <p>Build a 12-column layout using CSS Grid.</p>
+          <pre class="snippet__code"><code>
+          .grid {
+              display: grid;
+              width: 100%;
+              grid-template-columns: repeat(12, 1fr):
+          }
+           </code>
+          </pre>
+        </div>
       </section>
 
-      <section>
-        <h2>Linear Gradient</h2>
-        <p>This will create a background linear gradient from top to bottom.</p>
-        <pre>
-        .linear-gradient-background {
-            background-image: linear-gradient(rbga (232, 102, 236, 0.3) 0%, rbga (232, 102, 236, 0.6) 100%):
-        }
-        </pre>
+      <section class="snippet__card">
+        <h2 class="snippet__card-header">Linear Gradient</h2>
+        <div class="snippet__card-body">
+          <p>This will create a background linear gradient from top to bottom.</p>
+          <pre class="snippet__code"><code>
+          .linear-gradient-background {
+              background-image: linear-gradient(rbga (232, 102, 236, 0.3) 0%, rbga (232, 102, 236, 0.6) 100%):
+          }
+           </code>
+          </pre>
+        </div>
       </section>
 
-      <section>
-        <h2>Box Transition Glow</h2>
-        <p>Use transition and box shodows to glow on hover.</p>
-        <pre>
-        .code-card .card-header {
-            border-radius: 8px;
-            transition: all 0.5s ease-in-out;
-        }
-        </pre>
+      <section class="snippet__card">
+        <h2 class="snippet__card-header">Box Transition Glow</h2>
+        <div class="snippet__card-body">
+          <p>Use transition and box shodows to glow on hover.</p>
+          <pre class="snippet__code"><code>
+          .code-card .card-header {
+              border-radius: 8px;
+              transition: all 0.5s ease-in-out;
+          }
+            </code>
+          </pre>
+        </div>
       </section>
 
-      <section>
-        <h2>Overlay Card with Title</h2>
-        <p>Use position properties and negative margins to raise elemnts higher than their natural starting point.</p>
-        <pre>
+      <section class="snippet__card">
+        <h2 class="snippet__card-header">Overlay Card with Title</h2>
+        <div class="snippet__card-body">
+          <p>Use position properties and negative margins to raise elemnts higher than their natural starting point.</p>
+          <pre class="snippet__code"><code>
         .card-header {
             position: relative;
             margin-top: -20px;
         }
-        </pre>
+            </code>
+          </pre>
+        </div>
       </section>
     </main>
 
     <!-- Footer -->
     <footer>
-      <h3>
-        Made with ❤️ and CSS
-      </h3>
+      <h3>Made with ❤️ and CSS</h3>
     </footer>
   </body>
 </html>
