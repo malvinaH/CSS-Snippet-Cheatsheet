@@ -2,63 +2,63 @@
 
 
 :root {
-    --heading-color: rgb(240, 192, 255);
-    --background-color: rgb(87, 74, 74);
-    --text-color: #eeeeee;
-    --site-font: Arial, Helvetica sans-serif;
+    --heading-color: rgb(155, 68, 182);/*check*/
+    --background-color: rgb(49, 38, 38);/*check*/
+    --text-color: #eeeeee;/*check*/
+    --site-font: Arial, Helvetica sans-serif;/*check*/
 }
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box;/*check*/
 }
 
 body {
-    background-color: var(--background-color);
-    columns: var(--text-color);
-    font-family: var(--site-font);
+    background-color: var(--background-color);/*check*/
+    color: var(--text-color);/*check*/
+    font-family: var(--site-font);/*check*/
 }
 
 h1,
 h2,
 h3 {
-    color: var(--heading-color);
+    color: var(--heading-color);/*check*/
 }
 
 header{
-    text-align: center;
+    text-align: center;/*check*/
 }
 
 .snippet__card-container {
-    display: flex;
-    flex: wrap;
-    justify-content: center;
+    display: flex;/*check*/
+    flex-wrap: wrap;/*check*/
+    justify-content: center;/*check*/
 }
 
 .snippet__card {
-    border: dashed var(--text-color) 2px;
-    margin: 40px 0;
-    padding: 0 10px 10px 10px;
-    display: inline-block;
+    border: dashed var(--text-color) 2px;/*check*/
+    margin: 25px 5px;/*check*/
+    padding: 0 10px 10px 10px;/*check*/
+    flex: 1 0 300px;
 }
 
 .snippet__card-header {
-    border: solid 2px var(--text-color);
-    border-radius: 8px;
-    width: 96%;
-    position: relative;
-    margin-top: -17px;
-    background-color: var(--background-color);
-    padding-left: 4px;
+    border: solid 2px var(--text-color);/*check*/
+    border-radius: 8px;/*check*/
+    width: 96%;/*check*/
+    position: relative;/*check*/
+    margin-top: -17px;/*check*/
+    background-color: var(--background-color);/*check*/
+    padding-left: 4px;/*check*/
 }
 
 .snippet__card-body p{
-    color: var(--heading-color);
+    color: var(--heading-color);/*check*/
 }
 
 .snippet__card-code {
-    background: linear-gradient(180deg, #fa00ff 0%, #7b007d 100%);
-    border-radius: 8px;
-    padding: 8px;
+    background: linear-gradient(180deg, #fa00ff 0%, #7b007d 100%);/*check*/
+    border-radius: 8px;/*check*/
+    padding: 8px;/*check*/
 }
 /* tablet */
 
