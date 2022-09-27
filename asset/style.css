@@ -60,6 +60,10 @@ header{
     border-radius: 8px;/*check*/
     padding: 8px;/*check*/
 }
+
+footer {
+    text-align: center;
+}
 /* tablet */
 
 @media screen and (min-width: 650px) {
